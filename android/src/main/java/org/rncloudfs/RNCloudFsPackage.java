@@ -16,7 +16,6 @@ public class RNCloudFsPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new RNCloudFsModule(reactContext));
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
